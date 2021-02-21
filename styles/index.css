@@ -48,23 +48,20 @@ body, html {
     font-family: 'Playfair Display', serif;
 }
 
-.hero-text button {
+.hero-text a {
+    color: #fff;
+    text-decoration: none;
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 40%;
     font-size: 30px;
     padding: 2%;
-    border-radius: 40%;
+    border-radius: 3rem;
     background-color: #2B303A;
     transition: all 0.3s;
 }
 
-.hero-text a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.hero-text button:hover {
+.hero-text a:hover {
     background-color: #404652;
 }
 
@@ -83,12 +80,17 @@ body, html {
 }
 
 .staff img {
+    padding-bottom: 2%;
     width: 100%;
 }
 
 .staff h1 {
     padding-top: 2%;
     padding-bottom: 2%;
+}
+
+.staff p {
+    font-size: 20px;
 }
 
 /*-- reservations --*/
@@ -172,7 +174,7 @@ body, html {
 }
 
 .list span {
-    color: #58A4B0;
+    color: #0C7C59;
     font-size: 50px;
     letter-spacing: 1px;
 }
