@@ -1,6 +1,8 @@
+/*---------------  FONTS USED ---------------*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+/*--------- HTML ---------*/
 * {
     padding: 0;
     margin: 0;
@@ -89,6 +91,47 @@ body, html {
     padding-bottom: 2%;
 }
 
+/*-- reservations --*/
+.reserve-staff {
+    padding-top: 20%;
+    text-align: center;
+}
+
+.reserve-staff h1 {
+    color: rgb(59, 59, 59);
+    font-family: 'Playfair Display', serif;
+}
+
+.reserve-staff span {
+    color: #000;
+}
+
+.reserve-staff h1 {
+    padding-bottom: 5%;
+}
+
+.reserve-staff button {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #2B303A;
+    border-radius: 4px;
+    padding: 0 20px;
+    cursor: pointer;
+    height:32px;
+    font-size:20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.reserve-staff button:hover {
+    transform: scale(1.1);
+}
+
+.reserve-staff a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+}
+
 /*---------- SERVICES -------*/
 .services-cont {
     background-image: url("../images/services.jpg");
@@ -132,47 +175,6 @@ body, html {
     color: #58A4B0;
     font-size: 50px;
     letter-spacing: 1px;
-}
-
-/*---------- RESERVATIONS -------*/
-.reserve-staff {
-    padding-top: 20%;
-    text-align: center;
-}
-
-.reserve-staff h1 {
-    color: rgb(59, 59, 59);
-    font-family: 'Playfair Display', serif;
-}
-
-.reserve-staff span {
-    color: #000;
-}
-
-.reserve-staff h1 {
-    padding-bottom: 5%;
-}
-
-.reserve-staff button {
-    color: #000;
-    background-color: #fff;
-    border: 2px solid #2B303A;
-    border-radius: 4px;
-    padding: 0 20px;
-    cursor: pointer;
-    height:32px;
-    font-size:20px;
-    transition: all 0.2s ease-in-out;
-}
-
-.reserve-staff button:hover {
-    transform: scale(1.1);
-}
-
-.reserve-staff a{
-    color: #000;
-    text-decoration: none;
-    font-weight: 400;
 }
 
 /*---------- MAP AND SCHEDULE -------*/
@@ -250,6 +252,7 @@ body, html {
     color: #fff;
 }
 
-/*---------------------------------------------
------------------ PC STYLE --------------------
----------------------------------------------*/
+/*-------------------------------------------------
+----------------- TABLET STYLE --------------------
+-------------------------------------------------*/
+
