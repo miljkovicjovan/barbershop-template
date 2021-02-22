@@ -270,4 +270,10 @@ body, html {
         flex-direction: column;
         align-items: center;
     }
+
+    /*---- MAP AND SCHEDULE ----*/
+    .map-hours-cont {
+        flex-direction: column;
+        align-items: center;
+    }
 }
