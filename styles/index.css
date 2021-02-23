@@ -298,6 +298,21 @@ body, html {
     .staff {
         width: 35%;
     }
+
+    /*---- SERVICES ----*/
+    .header p {
+        font-size: 40px;
+    }
+
+    .list li {
+        padding-bottom: 5%;
+    }
+
+    /*---- FOOTER ----*/
+    .copyright {
+        padding-left: 15%;
+        width: 70%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -314,5 +329,53 @@ body, html {
     /*---- STAFF ----*/
     .staff {
         width: 50%;
+    }
+}
+
+@media (max-width: 530px) {
+    /*---- SERVICES ----*/
+    .list li {
+        font-size: 40px;
+    }
+    .list span {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    /*---- SERVICES ----*/
+    .list li {
+        font-size: 30px;
+    }
+    .list span {
+        font-size: 30px;
+    }
+
+    /*---- SHEDULE ----*/
+    .hours h1 {
+        font-size: 30px;
+    }
+
+    .hours li {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 380px) {
+    /*---- HERO ----*/
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    /*---- FOOTER ----*/
+    .copyright p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 280px) {
+    /*---- HERO ----*/
+    .hero-text h1 {
+        font-size: 20px;
     }
 }
