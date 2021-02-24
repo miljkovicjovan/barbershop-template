@@ -11,6 +11,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 body, html {
