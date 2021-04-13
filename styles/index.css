@@ -49,7 +49,7 @@ body, html {
 .staff-cont {
     display: flex;
     flex-direction: row;
-    background-color: #95516c;
+    background-color: #BAC1B8;
     padding-top: 15%;
     padding-bottom: 15%;
     justify-content: space-around;
@@ -67,7 +67,6 @@ body, html {
 .staff h1 {
     padding-top: 2%;
     padding-bottom: 2%;
-    color: white;
 }
 
 .staff p {
@@ -81,8 +80,12 @@ body, html {
 }
 
 .reserve-staff h1 {
-    color: #000;
+    color: rgb(59, 59, 59);
     font-family: 'Playfair Display', serif;
+}
+
+.reserve-staff span {
+    color: #000;
 }
 
 .reserve-staff h1 {
@@ -91,7 +94,7 @@ body, html {
 
 .reserve-staff button {
     color: #000;
-    background-color: #44FFD1;
+    background-color: #fff;
     border: 2px solid #2B303A;
     border-radius: 4px;
     padding: 0 20px;
@@ -122,7 +125,7 @@ body, html {
 }
 
 .header p {
-    color: #3f0b17;
+    color: #fff;
     font-size: 50px;
     letter-spacing: 1px;
     font-family: 'Playfair Display', serif;
@@ -151,7 +154,7 @@ body, html {
 }
 
 .list span {
-    color: #95516c;
+    color: #0C7C59;
     font-size: 50px;
     letter-spacing: 1px;
 }
@@ -163,7 +166,7 @@ body, html {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #95516c;
+    background-color: #BAC1B8;
 }
 
 .hours h1 {
@@ -171,7 +174,6 @@ body, html {
     padding-top: 3%;
     padding-bottom: 6%;
     font-family: 'Playfair Display', serif;
-    color: white;
 }
 
 .hours li {
@@ -180,18 +182,9 @@ body, html {
     font-size: 30px;
 }
 
-.hours a {
-    color: #4836ce;
-    transition: all 0.4s;
-}
-
-.hours a:hover {
-    color: white;
-}
-
 /*---------- FOOTER -------*/
 .footer {
-    background-color: #360A14;
+    background-color: #2B303A;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -233,12 +226,12 @@ body, html {
 }
 
 .copyright a {
-    color: #6153CC;
+    color: #0C7C59;
     transition: all 0.3s;
 }
 
 .copyright a:hover {
-    color: #44FFD1;
+    color: #fff;
 }
 
 /*-------------------------------------------------
